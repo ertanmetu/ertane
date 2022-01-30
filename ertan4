@@ -1,0 +1,23 @@
+--soru 1
+select distinct replacement_cost from film;
+--soru 2
+select count (distinct replacement_cost) from film;
+--soru 3
+select count (distinct title) from film
+where title like 'T%' and rating='G';
+--soru 4
+select count (distinct country) from country
+where country like '_____'
+--soru 5
+select count (distinct city) from city
+where city like 'R%r'
+
+--Merhabalar,
+
+--Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+--film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
+--film tablosunda bulunan replacement_cost sütununda birbirinden farklı kaç tane veri vardır?
+--film tablosunda bulunan film isimlerinde (title) kaç tanesini T karakteri ile başlar ve aynı zamanda rating 'G' ye eşittir?
+--country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
+--city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
+-Kol1ay Gelsin.
